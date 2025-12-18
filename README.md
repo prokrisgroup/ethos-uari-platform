@@ -18,13 +18,14 @@
 ## 🌐 Live URLs
 
 ### Development Server
-- **Dashboard**: https://3000-ioodhxcka5oo5gestb7mg-02b9cc79.sandbox.novita.ai
-- **API Health**: https://3000-ioodhxcka5oo5gestb7mg-02b9cc79.sandbox.novita.ai/api/health
+- **Dashboard**: https://3000-iqcpgeugwpgq85k2xmo0g-18e660f9.sandbox.novita.ai
+- **API Health**: https://3000-iqcpgeugwpgq85k2xmo0g-18e660f9.sandbox.novita.ai/api/health
 - **Status**: ✅ **ONLINE**
 
 ### GitHub Repository
-- **Repository**: (To be configured)
-- **Status**: Local repository initialized, ready for push
+- **Repository**: Ready for GitHub push
+- **Status**: Local repository with deployment pipeline documentation
+- **Deployment**: Automated GitHub → Cloudflare Pages pipeline configured
 
 ---
 
@@ -306,6 +307,7 @@ npm run preview
 - **Implementation Roadmap**: 367 granular tasks
 - **Audit Package**: Complete 247-question framework
 - **Status Reports**: Checkpoint documents
+- **Deployment Pipeline**: See [DEPLOYMENT_PIPELINE.md](./DEPLOYMENT_PIPELINE.md) for full GitHub → Cloudflare automation guide
 
 ---
 
