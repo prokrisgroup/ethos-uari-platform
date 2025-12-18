@@ -7,6 +7,7 @@ import type { Bindings } from './types'
 import domains from './routes/domains'
 import questions from './routes/questions'
 import assessments from './routes/assessments'
+import industries from './routes/industries'
 
 const app = new Hono<{ Bindings: Bindings }>()
 
@@ -20,6 +21,7 @@ app.use('/static/*', serveStatic({ root: './public' }))
 app.route('/api/domains', domains)
 app.route('/api/questions', questions)
 app.route('/api/assessments', assessments)
+app.route('/api/industries', industries)
 
 // Health check
 app.get('/api/health', (c) => {
